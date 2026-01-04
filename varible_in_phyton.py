@@ -11,8 +11,7 @@ last_name = "bwave"   #text string
 
 age = 10  #number int
 
-score = 45.7  #float decimal
-
+score = 45.7  #floa
 developer = True  #boolean
 
 question = 60 > 10
