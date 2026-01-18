@@ -156,15 +156,15 @@
 # Leading/Trailing Spaces: Users often hit the spacebar by accident. You can use .strip() to clean it up: name = input("Name: ").strip().
 
 
-ASSIGNMENT
-Exercise 1: The Personalized Greeting
-Goal: Ask the user for their name and favorite color, then print a personalized message.
+# ASSIGNMENT
+# Exercise 1: The Personalized Greeting
+# Goal: Ask the user for their name and favorite color, then print a personalized message.
 
-The Task: Prompt the user for two separate inputs and combine them into one sentence.
+# The Task: Prompt the user for two separate inputs and combine them into one sentence.
 
-The Concept: Basic string input and concatenation.
+# The Concept: Basic string input and concatenation.
 
-Solution:# Exercise 1: Personalized Greeting
+# Solution:# Exercise 1: Personalized Greeting
 
 name = input("Enter your name: ")
 favorite_color = input("Enter your favorite color: ")
@@ -174,20 +174,20 @@ message = "Hello " + name + "! Your favorite color is " + favorite_color + "."
 print(message)
 
 
-Python
+# # Python
 
 
 
-# Output: Hello ****! It's cool that your favorite color is *****.
+# # Output: Hello ****! It's cool that your favorite color is *****.
 
-Exercise 2: The Age Calculator
-Goal: Ask the user for their birth year and calculate how old they will be by the end of the current year (2026).
+# Exercise 2: The Age Calculator
+# Goal: Ask the user for their birth year and calculate how old they will be by the end of the current year (2026).
 
-The Task: Convert the input string into an integer to perform subtraction.
+# The Task: Convert the input string into an integer to perform subtraction.
 
-The Concept: Type casting using int().
+# The Concept: Type casting using int().
 
-Solution: Exercise 2: The Age Calculator
+# Solution: Exercise 2: The Age Calculator
 
 birth_year = input("Enter your birth year: ")
 
@@ -200,17 +200,17 @@ print("You will be", age, "years old by the end of 2026.")
 
 
 
-# Output: You will be ** years old by the end of 2026.
+# # Output: You will be ** years old by the end of 2026.
 
 
-Exercise 3: Area of a Rectangle (With Decimals)
-Goal: Create a program that asks for the length and width of a rectangle and calculates the area.
+# Exercise 3: Area of a Rectangle (With Decimals)
+# Goal: Create a program that asks for the length and width of a rectangle and calculates the area.
 
-The Task: Allow the user to enter decimal numbers (like 5.5).
+# The Task: Allow the user to enter decimal numbers (like 5.5).
 
-The Concept: Using float() for numerical precision.
+# The Concept: Using float() for numerical precision.
 
-Solution:# Exercise 3: Area of a Rectangle (With Decimals)
+# Solution:# Exercise 3: Area of a Rectangle (With Decimals)
 
 
 length = float(input("Enter the length of the rectangle: "))
@@ -220,7 +220,6 @@ area = length * width
 
 
 print("The total area of the rectangle is:", area)
-
 
 
 #Output: The total area of the rectangle is: ***
