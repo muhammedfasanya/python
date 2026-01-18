@@ -222,4 +222,5 @@ area = length * width
 print("The total area of the rectangle is:", area)
 
 
+
 #Output: The total area of the rectangle is: ***
