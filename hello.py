@@ -44,4 +44,7 @@ print("The average is", average)
 #minutes= 535//60 
 #remaningseconds=535%60
 #print (f'The number of minutes is {minutes} and the number of remaningseconds is {remaningseconds}')
+<<<<<<< HEAD:hello.py
 
+=======
+>>>>>>> 619fe8b757c655758954da9a9b30e99fbae70ee7:assignment_aritmetic_operation.py
